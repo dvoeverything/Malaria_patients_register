@@ -1,0 +1,112 @@
+.auth{
+  width: 90%;
+  max-width: 400px;
+  border: 1px solid #dcdcdc;
+  padding: 20px;
+  text-align: center;
+}
+
+.auth form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto 10px auto;
+}
+
+.auth__success{
+  padding: 10px 0;
+  background-color: hsl(147, 79%, 87%);
+  margin-bottom: 20px;
+}
+
+.auth__error{
+  padding: 10px 0;
+  background-color: hsl(0, 79%, 87%);
+  margin-bottom: 20px;
+}
+
+.auth form > input, button{
+  background-color: rgba(0, 1, 1, 0.281);
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.login_navbar{
+  position: fixed;
+  float: right;
+  align-items: flex-end;
+  background-color: blue;
+  display: block;
+  display: inline;
+  border: none;
+  width: 100%;
+  background-color: rgba(0, 1, 1, 0.281);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+
+}
+   
+    .Background {
+      background-image: 
+      url(./mosquito.jpg);
+      background-size: "cover";
+      background-color: rgba(0.1, 0.1, 0.1, 0.5);
+      height: 100vh;
+      margin-top: -70px;
+      font-size:50px;
+      background-repeat:no-repeat; 
+    }
+    
+  
+.button-1 {
+     font-size: large;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     align-content: right;
+     display: block;
+     display: inline;
+     border: none;
+     background-color: rgba(31, 92, 92, 0.1);
+     padding: 14px 28px;
+     font-size: 16px;
+     cursor: pointer;
+     text-align: center;
+   
+
+    }
+    
+    .button-1:hover,
+    .button-1:focus {
+      background-color: darkslategray;
+      text-decoration: none;
+      text-decoration-line: none;
+    }
+    table {
+      justify-content: center;
+      border: 2px solid black;
+      width: 800px;
+      height: 200px;
+      width: 90%;
+      max-width: 800px;
+         border: 1px solid #dcdcdc;
+       padding: 20px;
+       text-align: center;
+    }
+      
+    th {
+      border-bottom: 1px solid black;
+    }
+      
+    td {
+      text-align: center;
+    }
+    .button {
+      justify-content: right;
+      border: black;
+     
+    }
+    .font-edit{
+      color: black;
+      text-decoration-line: none;
+    }
